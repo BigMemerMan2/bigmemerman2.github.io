@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Charlie Gills test update</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="PixelArmy.ttf">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/x-icon" href="bmm1.png">
+<style>
+
+@font-face {
+  font-family: pixelArmyFont;
+  src: url(PixelArmy.ttf);
+}
+
+div {
+  font-family: pixelArmyFont;
+    font-size: 22px;
+}
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "PixelArmy", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body style="background: rgb(2,0,36); background: linear-gradient(180deg, rgb(114, 61, 206) 0%, rgb(56, 4, 90) 100%);">
+
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-center" id="home" style="background-image: url('bg.jpg'); background-repeat: no-repeat; background-size: cover; border-radius: 50px;">
+    <p class="w3-jumbo" style="color:rgb(255, 255, 255)" style="font-family: pixelArmyFont;">Fish Fetcher</p>
+    <img src="fishfetcher.png" alt="boy" class="w3-image" width="400" height="400">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h class="w3-text-light-grey">About this game:</h1>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="color:rgb(255, 255, 255);">Fish Fetcher was one my first games I made after a long hiatus from game development and programming in general. I made it for the Friday Night Game Jam which is a game jam/competition in which you must make a game within a three hour development time frame over the course of a weekend. It's a simple, semi-idle game in which you must collect fish and exchange said fish for upgrades and items to further your fishing abilties. I used a limited colour palette as I wanted to focus more on programming than art due to the time constraints. Everything in the game is rather basic but a few primary talking points include: The spawning system, ending and ui. The spawning system was quite inefficient and actually quite predictable as it was not random. It was an empty object that held a script which spawned the fish but rather than calculating where to spawn the fish randomly. The object had an animator attatched to it which rapidly moved the object around. This was due to my lack of knowledge at the time and the time constraints for development. Now, the ending occurred when a certain number of fish were met. It faded to white, displayed a small amount of text congratulating the player and thanking them for playing the game. The UI too, it doesn't scale correctly to the screen size so if you were to play the game on a different resolution to the preset webgl resolution, the ui would be bugged. Thats all, it was fun developing this game as it was a return to form and a great learning experience.</p>
+    <p style="color:rgb(255, 255, 255);"></p>
+    <p style="color:rgb(255, 255, 255);">You can play the game at my itch.io page: bigmemerman1.itch.io</p>
+
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
