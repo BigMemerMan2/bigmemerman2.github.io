@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Charlie Gills</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="PixelArmy.ttf">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/x-icon" href="bmm1.png">
+<style>
+
+@font-face {
+  font-family: pixelArmyFont;
+  src: url(PixelArmy.ttf);
+}
+
+div {
+  font-family: pixelArmyFont;
+    font-size: 22px;
+}
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "PixelArmy", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body style="background: rgb(2,0,36); background: linear-gradient(180deg, rgb(114, 61, 206) 0%, rgb(56, 4, 90) 100%);">
+
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-center" id="home" style="background-image: url('bg.jpg'); background-repeat: no-repeat; background-size: cover; border-radius: 50px;">
+    <p class="w3-jumbo" style="color:rgb(255, 255, 255)" style="font-family: pixelArmyFont;">Heart Attack!</p>
+    <img src="mazegame.jpg" alt="boy" class="w3-image" width="400" height="400">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h class="w3-text-light-grey">About this game:</h1>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="color:rgb(255, 255, 255);">This game was made in around 10 days for Mig Jam #28. The theme was shot through the heart so I decided a top down, bullet hell, endless shooter. This game is definitely one of my more proud achievements as it's my first proper, polished and well made top down shooter. This was also my first solo jam in a long time excluding Friday Night Game Jam which is hosted by me anyway. This game was a very big learning experience for me and taught me a lot about 2D sprite work and Unity 2D in general. This game features many different upgrades, enemy types, weapons and much more. I plan to change the difficulty scaling as of writing (03/03/25) very soon due to people complaining about bullet velocity and the enemy difficulty. This game too features a fully fledged options menu and tutorial although the tutorial is rather lacking due to the bare bones nature of it. It's a series of small areas with text in the background which guide the player and teach them about the core game mechanics. Upgrades are progessively learnt through the main game as small popups will show up to teach the player how to use said upgrades. I didn't include these in the tutorial which was an intentional decision although partially influenced by time constraints as the tutorial was made last minute. I intentionally designed the tutorial this way to make the player think on their feet more during gameplay. Thats all for this game, it taught me a lot about more efficient time management, better workflow practices and better programming practices. It too, improved my 2D pixel art skills as all assets were made by me. </p>
+    <p style="color:rgb(255, 255, 255);"></p>
+    <p style="color:rgb(255, 255, 255);">You can play the game at my itch.io page: bigmemerman1.itch.io</p>
+
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
